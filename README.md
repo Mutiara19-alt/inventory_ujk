@@ -1,7 +1,7 @@
 # Sistem Inventory Sederhana
 
 ## Identitas
-- **Nama**: Noel Grevansha
+- **Nama**: Rara
 - **NIM**: XXXXX
 
 ## Deskripsi
