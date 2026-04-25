@@ -1,8 +1,13 @@
 # Sistem Inventory Sederhana
 
 ## Identitas
+<<<<<<< HEAD
 - **Nama**: Rara
 - **NIM**: XXXXX
+=======
+- **Nama**: Mutiara
+- **NIM**: 220101097
+>>>>>>> 7c39210082809b86e933e79e482bf791477d4178
 
 ## Deskripsi
 Aplikasi CRUD produk dengan fitur login menggunakan JWT, password hashing dengan bcrypt, dan proteksi halaman menggunakan middleware authentication.

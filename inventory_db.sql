@@ -3,9 +3,15 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
+<<<<<<< HEAD
 -- Generation Time: Apr 25, 2026 at 05:43 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
+=======
+-- Waktu pembuatan: 21 Apr 2026 pada 09.56
+-- Versi server: 10.4.32-MariaDB
+-- Versi PHP: 8.0.30
+>>>>>>> 7c39210082809b86e933e79e482bf791477d4178
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -24,6 +30,7 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
+<<<<<<< HEAD
 -- Table structure for table `categories`
 --
 
@@ -48,12 +55,16 @@ INSERT INTO `categories` (`id`, `name`, `description`) VALUES
 
 --
 -- Table structure for table `products`
+=======
+-- Struktur dari tabel `products`
+>>>>>>> 7c39210082809b86e933e79e482bf791477d4178
 --
 
 CREATE TABLE `products` (
   `id` int(11) NOT NULL,
   `name` varchar(100) DEFAULT NULL,
   `price` int(11) DEFAULT NULL,
+<<<<<<< HEAD
   `stock` int(11) DEFAULT NULL,
   `category_id` int(10) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
@@ -64,11 +75,26 @@ CREATE TABLE `products` (
 
 INSERT INTO `products` (`id`, `name`, `price`, `stock`, `category_id`) VALUES
 (1, 'SKINTIFIC', 50000, 50, 0);
+=======
+  `stock` int(11) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data untuk tabel `products`
+--
+
+INSERT INTO `products` (`id`, `name`, `price`, `stock`) VALUES
+(1, 'SKINTIFIC', 50000, 50);
+>>>>>>> 7c39210082809b86e933e79e482bf791477d4178
 
 -- --------------------------------------------------------
 
 --
+<<<<<<< HEAD
 -- Table structure for table `users`
+=======
+-- Struktur dari tabel `users`
+>>>>>>> 7c39210082809b86e933e79e482bf791477d4178
 --
 
 CREATE TABLE `users` (
@@ -78,7 +104,11 @@ CREATE TABLE `users` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
+<<<<<<< HEAD
 -- Dumping data for table `users`
+=======
+-- Dumping data untuk tabel `users`
+>>>>>>> 7c39210082809b86e933e79e482bf791477d4178
 --
 
 INSERT INTO `users` (`id`, `username`, `password`) VALUES
@@ -89,6 +119,7 @@ INSERT INTO `users` (`id`, `username`, `password`) VALUES
 --
 
 --
+<<<<<<< HEAD
 -- Indexes for table `categories`
 --
 ALTER TABLE `categories`
@@ -96,17 +127,25 @@ ALTER TABLE `categories`
 
 --
 -- Indexes for table `products`
+=======
+-- Indeks untuk tabel `products`
+>>>>>>> 7c39210082809b86e933e79e482bf791477d4178
 --
 ALTER TABLE `products`
   ADD PRIMARY KEY (`id`);
 
 --
+<<<<<<< HEAD
 -- Indexes for table `users`
+=======
+-- Indeks untuk tabel `users`
+>>>>>>> 7c39210082809b86e933e79e482bf791477d4178
 --
 ALTER TABLE `users`
   ADD PRIMARY KEY (`id`);
 
 --
+<<<<<<< HEAD
 -- AUTO_INCREMENT for dumped tables
 --
 
@@ -118,12 +157,23 @@ ALTER TABLE `categories`
 
 --
 -- AUTO_INCREMENT for table `products`
+=======
+-- AUTO_INCREMENT untuk tabel yang dibuang
+--
+
+--
+-- AUTO_INCREMENT untuk tabel `products`
+>>>>>>> 7c39210082809b86e933e79e482bf791477d4178
 --
 ALTER TABLE `products`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
+<<<<<<< HEAD
 -- AUTO_INCREMENT for table `users`
+=======
+-- AUTO_INCREMENT untuk tabel `users`
+>>>>>>> 7c39210082809b86e933e79e482bf791477d4178
 --
 ALTER TABLE `users`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
